@@ -1,0 +1,47 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.section1 {
+  margin-top: 3em;
+  padding: 8em;
+  background-color: #3883a2;
+  width: 90%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: start;
+}
+.titre {
+  font-size: 112px;
+  font-weight: bold;
+  color: white;
+}
+.para {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+.button {
+  background-color: white;
+  width: 212px;
+  height: 36px;
+  border-radius: 10px;
+}
+.right {
+  display: flex;
+  height: 50vh;
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(../../public/1372-samsung-galaxy-a55-5g-8-256gb-azul-libre-review-removebg-preview\ 2.png);
+}
