@@ -45,3 +45,43 @@
   width: 100%;
   background-image: url(../../public/1372-samsung-galaxy-a55-5g-8-256gb-azul-libre-review-removebg-preview\ 2.png);
 }
+
+@media (max-width: 1221px) {
+  .titre {
+    font-size: 80px;
+  }
+  .para {
+    font-size: 50px;
+  }
+}
+@media (max-width: 821px) {
+  .titre {
+    font-size: 60px;
+  }
+  .para {
+    font-size: 30px;
+  }
+  .section1 {
+    padding: 5em;
+  }
+}
+@media (max-width: 740px) {
+  .titre {
+    font-size: 40px;
+  }
+  .para {
+    font-size: 24px;
+  }
+  .section1 {
+    padding: 1em;
+    justify-content: center;
+  }
+  .right {
+    display: none;
+  }
+  .left {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
