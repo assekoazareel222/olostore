@@ -91,13 +91,23 @@
 
 @media (max-width: 821px) {
   .titre {
-    font-size: 60px;
+    font-size: 40px;
+  }
+  .right {
+    height: 25vh;
+    width: 40%;
+    margin-right: 30px;
+    background-image: url(../../public/1372-samsung-galaxy-a55-5g-8-256gb-azul-libre-review-removebg-preview\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
   }
   .para {
     font-size: 30px;
   }
   .section1 {
-    padding: 1em;
+    padding: 0.5;
+    height: 1%;
   }
   .text {
     font-size: 10px;
@@ -110,12 +120,15 @@
     width: 50%;
     gap: 10px;
   }
+  .Image1 {
+    display: none;
+  }
 }
 @media (max-width: 740px) {
   .titre {
     font-size: 18px;
   }
-  
+
   .para {
     font-size: 16px;
   }
@@ -126,22 +139,20 @@
     background-repeat: no-repeat;
     background-position: right;
   }
-  .button{
+  .button {
     width: 60%;
     height: 20%;
     font-size: 12px;
-
   }
   .right {
     display: none;
   }
-  .section1{
+  .section1 {
     justify-content: start;
   }
   .left {
     justify-content: start;
     align-items: start;
-    
   }
   .cnt1,
   .cnt2 {
@@ -152,7 +163,7 @@
     flex-direction: column;
     gap: 20px;
   }
-  .button{
+  .button {
     font-size: 10px;
   }
 
@@ -169,4 +180,5 @@
   .text {
     font-size: 10px;
   }
+  
 }
