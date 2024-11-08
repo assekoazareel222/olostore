@@ -1,4 +1,4 @@
-export default function formulaire (){
+export function Header (){
     return (
         <div>
             <h1>Welcome to the OloStore</h1>
