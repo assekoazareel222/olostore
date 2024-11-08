@@ -4,8 +4,8 @@ export function Footer() {
   return (
     <div className="w-full bg-[#3883A2]">
       <footer className=" w-[90%] m-auto flex justify-between pt-3 pb-4">
-        <section  className="w-full m-auto max-sm:hidden pt-6 pb-6 flex justify-between pr-5">
-          <div className="md:flex md:flex-col max-sm:hidden">
+        <section className="w-full m-auto max-sm:hidden pt-6 pb-6 flex justify-between pr-5">
+          <div className="md:flex md:flex-col md:gap-4 max-sm:hidden">
             <p className="font-bold md:text-lg text-base text-white">
               Exclusive
             </p>
@@ -16,40 +16,38 @@ export function Footer() {
               <input
                 type="email"
                 placeholder="email"
-                className="md:pl-4 pl-1 md:pr-4 mt-2 md:py-3 bg-transparent border-x-[3px] border-y-[3px] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="mt-2 md:py-2 w-[80%] pl-2 bg-transparent border-x-[3px] border-y-[3px] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
-              <Image
+              {/* <Image
                 src="../assets/flèche.svg"
                 alt="Search Icon"
                 width={22}
                 height={22}
                 className="absolute md:left-[180px] left-[120px] md:w-8 h-3 w-3 md:h-8 text-gray-400"
-              />
+              /> */}
             </div>
           </div>
-          <div className="gap-4 flex flex-col">
+          <div className="gap-4 flex pr-3 flex-col">
             <p className="font-bold md:text-lg text-base text-white">Support</p>
             <p className="md:text-base text-sm text-white">
               Libreville , ancienne <br></br> sobraga
             </p>
-            <p className="md:text-base text-sm text-white">
-              ogouelabs@gmail.com
-            </p>
+            <p className="md:text-sm text-sm text-white">ogouelabs@gmail.com</p>
             <p className="md:text-base text-sm text-white">+241 074 04 04 04</p>
           </div>
-          <div>
-            {/* setion3 */}
-            <div className="gap-4 md:flex md:flex-col">
-              <p className="font-bold md:text-lg text-base text-white">
-                Quick Link
-              </p>
-              <p className="md:text-base text-sm text-white">
-                politique de confidentialité
-              </p>
-              <p className="md:text-base text-sm text-white">FAQ</p>
-              <p className="md:text-base text-sm text-white">+Contact</p>
-            </div>
+
+          {/* setion3 */}
+          <div className="gap-4 flex pl-3 flex-col">
+            <p className="font-bold md:text-lg text-base text-white">
+              Quick Link
+            </p>
+            <p className="md:text-base text-sm text-white">
+              politique de confidentialité
+            </p>
+            <p className="md:text-base text-sm text-white">FAQ</p>
+            <p className="md:text-base text-sm text-white">+Contact</p>
           </div>
+
           <div className="">
             <div className="flex md:gap-5 gap-3">
               <Image
@@ -106,22 +104,20 @@ export function Footer() {
             <p className="font-bold md:text-lg text-base text-white">
               Exclusive
             </p>
-            <p className="md:text-base text-sm text-white">
-              Subscribe
-            </p>
+            <p className="md:text-base text-sm text-white">Subscribe</p>
             <div className="relative flex items-center">
               <input
                 type="email"
                 placeholder="email"
                 className="md:pl-4 pl-1 md:pr-4 mt-2 max-sm:w-[60%] md:py-3 bg-transparent border-x-[3px] border-y-[3px] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
-              <Image
+              {/* <Image
                 src="../assets/flèche.svg"
                 alt="Search Icon"
                 width={22}
                 height={22}
                 className="absolute md:left-[180px] left-[80px] m-auto md:w-8 h-3 w-3 md:h-8 text-gray-400"
-              />
+              /> */}
             </div>
           </div>
           {/* setion2 */}
