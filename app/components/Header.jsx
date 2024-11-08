@@ -3,7 +3,7 @@ import Image from "next/image";
 export function Header() {
   return (
     <div className="w-full">
-      <header className="w-[80%] m-auto py-1 md:py-2 bg-[#3883A2] rounded-lg mt-4 md:pr-6 pr-3 justify-between flex items-center">
+      <header className="w-[90%] m-auto py-1 md:py-2 bg-[#3883A2] rounded-lg mt-4 md:pr-6 pr-3 justify-between flex items-center">
         <div>
           <Image
             className="dark:invert w-20 md:w-30"
