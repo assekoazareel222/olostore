@@ -14,10 +14,6 @@ export function Header() {
             //   priority
           />
         </div>
-        {/* <div>
-          <input placeholder="Rechercher vos produits" className="rounded-md py-1 md:py-3"> 
-          </input>
-        </div> */}
         <div className="relative flex items-center">
         <input
             type="text"
