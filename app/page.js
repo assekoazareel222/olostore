@@ -1,9 +1,12 @@
 import Image from "next/image";
-
+import { Section1 } from "./components/acceuil/Section1";
+import { Header } from "./components/Header";
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-     <h1>Bienvenue sur nextjs</h1>
-    </div>
+  return (<>
+          
+    
+    <Header/>
+    <Section1/>
+    </>
   );
 }
