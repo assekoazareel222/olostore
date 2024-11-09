@@ -1,4 +1,4 @@
-export function Footer (){
+export function Section5 (){
     return (
         <div>
             <h1>Welcome to the OloStore</h1>
@@ -6,4 +6,3 @@ export function Footer (){
         </div>
     )
 }
-<div></div>
