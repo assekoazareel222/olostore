@@ -1,8 +1,8 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import { Footer } from "../components/produits/Cat";
-import { Articles, Footer } from "../components/produits/Articles";
-import { Articlespub, Footer } from "../components/produits/Articlespub";
+import { Articles,} from "../components/produits/Articles";
+import { Articlespub} from "../components/produits/Articlespub";
+import { Cat } from "../components/produits/Cat";
 
 export default function formulaire (){
     return (

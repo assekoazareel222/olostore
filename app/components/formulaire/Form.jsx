@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Form() {
   return (
     <div className="w-full flex flex-col items-center">
@@ -46,7 +48,12 @@ export function Form() {
           </div>
         </div>
       </form>
-      <button type="submit" className="bg-[#3883A2] text-white w-[123px] rounded-md mt-8 mb-8 h-9 ">Soumettre</button>
+
+      <Link href="../../redirection" className="bg-[#3883A2] text-white w-[123px] text-center rounded-md mt-8 mb-8 h-9 ">
+      {/* <button>  */}
+      Somettre
+      {/* </button> */}
+      </Link>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Articles() {
   return (
@@ -49,7 +50,11 @@ export function Articles() {
           <p class="text-black font-bold">Pc</p>
             <p class="text-white font-bold text-lg">Mac Book M1</p>
             <p class="text-white text-xl mb-2">350 000</p>
-            <button class="bg-white hover:bg-gray-300 text-black font-semibold py-2 px-4 rounded-[10px] w-[212px] h-[36px]">Commander</button>
+            <Link href="../../article"  className="bg-white text-black font-semibold py-2 px-4 rounded-[10px] w-[212px] h-[36px] ">
+          {/* <button>  */}
+            Commander
+          {/* </button> */}
+          </Link>
           </div>
         </div>
 
@@ -181,7 +186,11 @@ export function Articles() {
           <p class="text-black font-bold">Telephone</p>
             <p class="text-white font-bold text-lg">Samsung A55</p>
             <p class="text-white text-xl mb-2">220 000</p>
-            <button class="bg-white hover:bg-gray-300 text-black font-semibold py-2 px-4 rounded-[10px] w-[212px] h-[36px]">Commander</button>
+            <Link href="../../article"  className="bg-white text-black font-semibold py-2 px-4 rounded-[10px] w-[212px] h-[36px] ">
+          {/* <button>  */}
+            Commander
+          {/* </button> */}
+          </Link>
           </div>
         </div>
 
@@ -200,6 +209,7 @@ export function Articles() {
       </div>
 
       </div>
+      
 
   );
 }
