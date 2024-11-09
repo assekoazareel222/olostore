@@ -14,23 +14,19 @@ export function Header() {
             //   priority
           />
         </div>
-        {/* <div>
-          <input placeholder="Rechercher vos produits" className="rounded-md py-1 md:py-3"> 
-          </input>
-        </div> */}
         <div className="relative flex items-center">
         <input
             type="text"
             placeholder="Rechercher vos produits"
             className="md:pl-4 pl-1 md:pr-32 md:py-2 py-1 pr-1 border rounded-md w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
-          <Image
+          {/* <Image
             src="../assets/recherche.svg"
             alt="Search Icon"
             width={22}
             height={22}
             className="absolute md:left-[302px] left-[180px] md:w-8 h-5 w-5 md:h-8 text-gray-400"
-          />
+          /> */}
         </div>
         <div className="md:hidden lg:hidden">
           <Image

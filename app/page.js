@@ -1,16 +1,12 @@
 import Image from "next/image";
+import { Section1 } from "./components/acceuil/Section1";
 import { Header } from "./components/Header";
-import { Cat } from "./components/produits/Cat.jsx";
-import { Articles } from "./components/produits/Articles";
-import { Articlespub } from "./components/produits/Articlespub";
-
 export default function Home() {
-  return (
-    <>
-      <><Header /></>
-      <><Cat/></>
-      <><Articles /></>
-      <><Articlespub /></>
+  return (<>
+          
+    
+    <Header/>
+    <Section1/>
     </>
   );
 }

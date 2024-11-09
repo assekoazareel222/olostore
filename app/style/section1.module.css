@@ -1,0 +1,155 @@
+.section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.section1 {
+  margin-top: 3em;
+  padding: 1em 10em 1em 10em;
+  background-color: #3883a2;
+  width: 90%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: start;
+}
+.titre {
+  font-size: 112px;
+  font-weight: bold;
+  color: white;
+}
+.para {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+.button {
+  background-color: white;
+  width: 212px;
+  height: 36px;
+  border-radius: 10px;
+}
+.right {
+  display: flex;
+  height: 50vh;
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  background-image: url(../../public/1372-samsung-galaxy-a55-5g-8-256gb-azul-libre-review-removebg-preview\ 2.png);
+}
+.promesse {
+  margin-top: 1em;
+  width: 90%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.promesse1 {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-size: 22px;
+  font-weight: bold;
+}
+.cnt1,
+.cnt2 {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1221px) {
+  .titre {
+    font-size: 80px;
+  }
+  .para {
+    font-size: 50px;
+  }
+  .Image {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (max-width: 821px) {
+  .titre {
+    font-size: 60px;
+  }
+  .para {
+    font-size: 30px;
+  }
+  .section1 {
+    padding: 1em;
+    
+  }
+  .text {
+    font-size: 10px;
+  }
+  .ctn1,
+  .ctn2 {
+    gap: 20px;
+  }
+  .promesse1{
+    width: 50%;
+    gap: 10px;
+  }
+}
+@media (max-width: 740px) {
+  .titre {
+    font-size: 40px;
+  }
+  .para {
+    font-size: 24px;
+  }
+  .section1 {
+    padding: 1em;
+    justify-content: center;
+  }
+  .right {
+    display: none;
+  }
+  .left {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cnt1,
+  .cnt2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .promesse1 {
+    display: flex;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .text {
+    font-size: 12px;
+  }
+}
