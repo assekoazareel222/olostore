@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Header() {
   return (
@@ -37,12 +38,12 @@ export function Header() {
             height={22}
           />
         </div>
-        <div className="flex gap-10 max-sm:hidden">
-          <p className="text-white text-sm max-sm:hidden md:text-lg">Acceuil</p>
-          <p className="text-white text-sm max-sm:hidden md:text-lg">
+        <ul className="flex gap-10 max-sm:hidden">
+          <Link href="/" className="text-white text-sm max-sm:hidden md:text-lg">Acceuil</Link>
+          <Link href="./produits" className="text-white text-sm max-sm:hidden md:text-lg">
             Produits
-          </p>
-        </div>
+          </Link>
+        </ul>
       </header>
     </div>
   );
