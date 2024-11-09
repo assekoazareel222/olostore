@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import Link from "next/link";
 
 export default function article() {
   return (
@@ -161,9 +162,11 @@ export default function article() {
                   <p className="flex text-start">Tax : incl.</p>
                 </div>
                 <div className="flex gap-3 items-center">
-                  <button className="text-white md:py-2 py-1 bg-black md:px-10 px-7 rounded-md">
+                 <Link href="../formulaire" className="text-white md:py-2 py-1 bg-black md:px-10 px-7 rounded-md">
+                  {/* <button> */}
                     commander
-                  </button>
+                  {/* </button> */}
+                  </Link>
                   <button className="text-white md:py-2 flex gap-4 py-1 items-center bg-[#3883A2] md:px-6 px-4 rounded-md">
                     commander <span><Image
                       className="dark:invert w-[18px] h-[18px] bg-cover object-cover"

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <div className="w-full">
+    <div className="w-full sticky top-0">
       <header className="w-[90%] m-auto py-1 md:py-2 bg-[#3883A2] rounded-lg mt-4 md:pr-6 pr-3 justify-between flex items-center">
         <div>
           <Image
@@ -40,7 +40,7 @@ export function Header() {
         </div>
         <ul className="flex gap-10 max-sm:hidden">
           <Link href="/" className="text-white text-sm max-sm:hidden md:text-lg">Acceuil</Link>
-          <Link href="./produits" className="text-white text-sm max-sm:hidden md:text-lg">
+          <Link href="./produit" className="text-white text-sm max-sm:hidden md:text-lg">
             Produits
           </Link>
         </ul>
