@@ -16,8 +16,8 @@ export function Section1() {
           <Image
             src="/assets/1372-samsung-galaxy-a55-5g-8-256gb-azul-libre-review-removebg-preview 2.svg"
             alt="Search Icon"
-            width={400}
-            height={400}
+            width={350}
+            height={350}
             className={styles.Image1}
           />{" "}
         </div>
