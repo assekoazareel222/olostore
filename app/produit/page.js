@@ -1,11 +1,17 @@
 import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
+import { Articles,} from "../components/produits/Articles";
+import { Articlespub} from "../components/produits/Articlespub";
+import { Cat } from "../components/produits/Cat";
 
 export default function formulaire (){
     return (
         <div>
             <Header />
-            <h1>Welcome to the OloStore</h1>
-            <p>Here you can find all your favorite products, from clothing to electronics, all at the best prices.</p>
+            <Cat />
+            <Articles />
+            <Articlespub />
+            <Footer />
         </div>
     )
 }

@@ -10,11 +10,10 @@ import { Footer } from "./components/Footer";
 
 export default function Home() {
   return (<>
-          
-    
     <Header/>
+    
     <Section1/>
-    <Cat />
+    
     <Section2 />
     {/* <Articles /> */}
     <Ogou />

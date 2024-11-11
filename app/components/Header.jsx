@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Header() {
   return (
-    <div className="w-full">
-      <header className="w-[90%] m-auto py-1 md:py-2 bg-[#3883A2] rounded-lg mt-4 md:pr-6 pr-3 justify-between flex items-center">
+    <div className="w-full sticky top-0">
+      <header className="w-[80%] m-auto py-1 md:py-2 bg-[#3883A2] rounded-lg mt-4 md:pr-6 pr-3 justify-between flex items-center">
         <div>
           <Image
             className="dark:invert w-20 md:w-30"
@@ -14,23 +15,19 @@ export function Header() {
             //   priority
           />
         </div>
-        {/* <div>
-          <input placeholder="Rechercher vos produits" className="rounded-md py-1 md:py-3"> 
-          </input>
-        </div> */}
         <div className="relative flex items-center">
         <input
             type="text"
             placeholder="Rechercher vos produits"
             className="md:pl-4 pl-1 md:pr-32 md:py-2 py-1 pr-1 border rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
-          <Image
+          {/* <Image
             src="../assets/recherche.svg"
             alt="Search Icon"
             width={22}
             height={22}
             className="absolute md:left-[302px] left-[180px] md:w-8 h-5 w-5 md:h-8 text-gray-400"
-          />
+          /> */}
         </div>
         <div className="md:hidden lg:hidden">
           <Image
@@ -41,12 +38,12 @@ export function Header() {
             height={22}
           />
         </div>
-        <div className="flex gap-10 max-sm:hidden">
-          <p className="text-white text-sm max-sm:hidden md:text-lg">Acceuil</p>
-          <p className="text-white text-sm max-sm:hidden md:text-lg">
+        <ul className="flex gap-10 max-sm:hidden">
+          <Link href="/" className="text-white text-sm max-sm:hidden md:text-lg">Acceuil</Link>
+          <Link href="./produit" className="text-white text-sm max-sm:hidden md:text-lg">
             Produits
-          </p>
-        </div>
+          </Link>
+        </ul>
       </header>
     </div>
   );
