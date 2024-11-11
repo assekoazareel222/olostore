@@ -71,9 +71,9 @@
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 1328px) {
+@media (max-width: 1520px) {
   .titre {
-    font-size: 80px;
+    font-size: 50px;
   }
   .para {
     font-size: 50px;
