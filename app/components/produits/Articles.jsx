@@ -62,7 +62,7 @@ export const Articles = () => {
                   height={180}
                   className="w-40 h-60"
                 />
-              </div>
+              </div>-
               <div>
                 {/* Nom du produit */}
                 <p className="text-black font-bold">{product.name}</p>
@@ -72,7 +72,7 @@ export const Articles = () => {
                 <p className="text-white text-xl mb-2">{product.price || "Prix indisponible"} fr</p>
                 {/* Lien vers la page détaillée du produit */}
                 <Link
-                  href={`/article/${product.id}`} // Lien dynamique vers chaque produit avec son ID
+                  href={`/article/${product.id}`} key={product.id} // Lien dynamique vers chaque produit avec son ID
                   className="bg-white hover:bg-gray-300 text-black font-semibold py-2 px-4 rounded-[10px] w-[212px] h-[36px]"
                 >
                   Commander
@@ -81,7 +81,10 @@ export const Articles = () => {
             </div>
           ))
         )}
+        
       </div>
     </div>
-  );
-};
+  )};
+
+
+
