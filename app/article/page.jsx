@@ -115,7 +115,7 @@ export default function Article() {
             <div>
               <div>
                 <div className="flex gap-1 mb-2">
-                  <p className="text-sm">Prix Total :</p>
+                                                                                                                                                                                                                                                                                  <p className="text-sm">Prix Total :</p>
                   <p className="text-[#1B7FED] font-bold"> {product.price}</p>
                   <p className="flex text-start">Tax : incl.</p>
                 </div>
