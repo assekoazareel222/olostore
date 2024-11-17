@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <div className="w-full sticky top-0">
-      <header className="w-[90%] m-auto py-1 md:py-2 bg-[#3883A2] rounded-lg mt-4 md:pr-6 pr-3 justify-between flex items-center">
+    <div className="w-full sticky top-0 z-50">
+      <header className=" w-[90%] m-auto py-1 md:py-2 bg-[#3883A2] rounded-lg mt-4 md:pr-6 pr-3 justify-between flex items-center">
         <div>
           <Image
-            className="dark:invert w-20 md:w-30"
+            className="w-20 md:w-30"
             src="../assets/logo.svg"
             alt="logo"
             width={100}
@@ -19,7 +19,7 @@ export function Header() {
         <input
             type="text"
             placeholder="Rechercher vos produits"
-            className="md:pl-4 pl-1 md:pr-32 md:py-2 py-1 pr-1 border rounded-md  focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="md:pl-4 pl-1 md:pr-32 md:py-2 py-1 pr-1 border rounded-md w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {/* <Image
             src="../assets/recherche.svg"

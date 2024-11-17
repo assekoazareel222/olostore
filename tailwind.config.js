@@ -11,10 +11,16 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-      screens: {
-        'min-300': '300px',  // Point de départ à 300px
-        'max-600': {'max': '600px'}, // Maximum à 600px
-      },
+    },
+    screens: {
+      // Points de rupture par défaut de Tailwind
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+
+      // Vos media queries personnalisées
     },
   },
   plugins: [],
